@@ -2445,6 +2445,404 @@ body.sidebar.colorful {
   .sidebar-header-mobile {
     padding: 1rem;
   }
+  
+  /* Mobile sidebar improvements */
+  .sidebar {
+    width: 100%;
+    max-width: 320px;
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-main {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .sidebar-content {
+    padding: 1rem;
+    width: 100%;
+    max-width: none;
+  }
+  
+  /* Mobile header improvements */
+  .sidebar-header-mobile {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(90deg, #1e1b4b 0%, #312e81 100%);
+    border-bottom: 1px solid #4338ca;
+  }
+  
+  .sidebar-toggle {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* Mobile content adjustments */
+  .dark-sidebar .page-container {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .dark-sidebar .hero-section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .hero-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .dark-sidebar .hero-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .dark-sidebar .features-section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .dark-sidebar .products-section {
+    padding: 2rem 0;
+  }
+  
+  .dark-sidebar .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .dark-sidebar .section-header {
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .section-title {
+    font-size: 2rem;
+  }
+  
+  .dark-sidebar .section-description {
+    font-size: 1rem;
+  }
+  
+  /* About page mobile adjustments */
+  .dark-sidebar .about-hero {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .about-title {
+    font-size: 2.5rem;
+  }
+  
+  .dark-sidebar .about-stats {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .dark-sidebar .about-mission {
+    padding: 2rem 0;
+  }
+  
+  /* Contact page mobile adjustments */
+  .dark-sidebar .contact-hero {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-sidebar .contact-title {
+    font-size: 2.5rem;
+  }
+  
+  .dark-sidebar .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  /* Product card mobile improvements */
+  .dark-sidebar .product-card {
+    padding: 1rem;
+  }
+  
+  .dark-sidebar .product-title {
+    font-size: 1rem;
+  }
+  
+  .dark-sidebar .product-description {
+    font-size: 0.875rem;
+  }
+  
+  .dark-sidebar .add-to-cart-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Feature card mobile improvements */
+  .dark-sidebar .feature-card {
+    padding: 1.5rem;
+  }
+  
+  .dark-sidebar .feature-title {
+    font-size: 1.25rem;
+  }
+  
+  .dark-sidebar .feature-description {
+    font-size: 0.9rem;
+  }
+  
+  /* Stat card mobile improvements */
+  .dark-sidebar .stat-card {
+    padding: 1.5rem;
+  }
+  
+  .dark-sidebar .stat-number {
+    font-size: 2rem;
+  }
+  
+  .dark-sidebar .stat-label {
+    font-size: 0.9rem;
+  }
+  
+  /* Form mobile improvements */
+  .dark-sidebar .form-group input,
+  .dark-sidebar .form-group textarea {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .dark-sidebar .submit-button {
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Hero button mobile improvements */
+  .dark-sidebar .hero-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet specific adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    max-width: 300px;
+  }
+  
+  .dark-sidebar .hero-title {
+    font-size: 2rem;
+  }
+  
+  .dark-sidebar .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .dark-sidebar .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  
+  .dark-sidebar .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .dark-sidebar .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 480px) {
+  .sidebar {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .sidebar-content {
+    padding: 0.5rem;
+  }
+  
+  .sidebar-header-mobile {
+    padding: 0.75rem;
+  }
+  
+  .dark-sidebar .page-container {
+    padding: 0.5rem;
+  }
+  
+  .dark-sidebar .hero-section {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dark-sidebar .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .dark-sidebar .hero-description {
+    font-size: 0.9rem;
+  }
+  
+  .dark-sidebar .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .dark-sidebar .section-description {
+    font-size: 0.9rem;
+  }
+  
+  .dark-sidebar .features-section {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dark-sidebar .products-section {
+    padding: 1.5rem 0;
+  }
+  
+  .dark-sidebar .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .dark-sidebar .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .dark-sidebar .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .dark-sidebar .about-hero {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dark-sidebar .about-title {
+    font-size: 1.75rem;
+  }
+  
+  .dark-sidebar .about-stats {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dark-sidebar .about-mission {
+    padding: 1.5rem 0;
+  }
+  
+  .dark-sidebar .contact-hero {
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dark-sidebar .contact-title {
+    font-size: 1.75rem;
+  }
+  
+  .dark-sidebar .contact-content {
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+  }
+  
+  /* Product card mobile improvements */
+  .dark-sidebar .product-card {
+    padding: 0.75rem;
+  }
+  
+  .dark-sidebar .product-title {
+    font-size: 0.9rem;
+  }
+  
+  .dark-sidebar .product-description {
+    font-size: 0.8rem;
+  }
+  
+  .dark-sidebar .add-to-cart-button {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+  }
+  
+  /* Feature card mobile improvements */
+  .dark-sidebar .feature-card {
+    padding: 1rem;
+  }
+  
+  .dark-sidebar .feature-title {
+    font-size: 1.1rem;
+  }
+  
+  .dark-sidebar .feature-description {
+    font-size: 0.85rem;
+  }
+  
+  /* Stat card mobile improvements */
+  .dark-sidebar .stat-card {
+    padding: 1rem;
+  }
+  
+  .dark-sidebar .stat-number {
+    font-size: 1.5rem;
+  }
+  
+  .dark-sidebar .stat-label {
+    font-size: 0.8rem;
+  }
+  
+  /* Form mobile improvements */
+  .dark-sidebar .form-group input,
+  .dark-sidebar .form-group textarea {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+  }
+  
+  .dark-sidebar .submit-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.85rem;
+  }
+  
+  /* Hero button mobile improvements */
+  .dark-sidebar .hero-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Sidebar navigation mobile improvements */
+  .sidebar-link {
+    padding: 1rem 1.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .sidebar-header {
+    padding: 1.5rem 1.25rem;
+  }
+  
+  .sidebar-footer {
+    padding: 1.25rem;
+  }
 }
 
 /* Colorful Cards Theme Styles */
