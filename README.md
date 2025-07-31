@@ -9,7 +9,7 @@
 
 **Experience the power of dynamic theme switching with our innovative React application!**
 
-[🚀 Live Demo](#) • [📖 Documentation](#features) • [🛠️ Installation](#installation)
+[🚀 Live Demo](https://theme-changer-app-nu.vercel.app/) • [📖 Documentation](#features) • [🛠️ Installation](#installation)
 
 </div>
 
