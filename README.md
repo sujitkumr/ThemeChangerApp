@@ -9,7 +9,7 @@
 
 **Experience the power of dynamic theme switching with our innovative React application!**
 
-[🚀 Live Demo](#) • [📖 Documentation](#features) • [🛠️ Installation](#installation)
+[🚀 Live Demo](https://theme-changer-app-nu.vercel.app/) • [📖 Documentation](#features) • [🛠️ Installation](#installation)
 
 </div>
 
@@ -259,9 +259,9 @@ themeProviderReact/
 We welcome contributions! Please follow these steps:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b main`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+4. Push to the branch (`git push origin main`)
 5. Open a Pull Request
 
 ### Development Guidelines
@@ -284,11 +284,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Sujit Kumar**
 - Email: sujitkymar101@gmail.com
 - Location: India
-- Phone: +91 764-123-4567
+
 
 ### Connect with me
-- [LinkedIn](#)
-- [GitHub](#)
+- [LinkedIn](https://www.linkedin.com/in/3233sujit-kumar-67b13321b)
+- [GitHub](https://github.com/sujitkumr)
 - [Portfolio](#)
 
 ---
